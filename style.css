@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.Home {
+  height: 100vh;
+}
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: crimson;
+  position: fixed;
+  z-index: 999;
+}
+.nav-bar .left-column {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.nav-bar .left-column i {
+  font-size: 3rem;
+}
+.nav-bar .left-column h1 {
+  padding: 5px;
+  font-size: 30px;
+}
+.nav-bar ul {
+  display: flex;
+  padding: 30px;
+  list-style: none;
+}
+.nav-bar ul li {
+  padding: 20px;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s ease;
+}
+.middle-section {
+  padding-top: 10%;
+  text-align: center;
+}
+.middle-section .myself {
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.middle-section .myself h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+/*about section*/
+.about {
+  height: 100vh;
+  background-color: black;
+}
+.about-title {
+  text-align: center;
+  padding-top: 10%;
+}
+.about-title h1 {
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+}
+.about-content {
+  background-color: #222;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.about-content .about-content-title {
+  text-align: center;
+}
+.about-content .about-content-title h2 {
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+}
+.about-content .abot-content-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+  padding: 40px;
+}
+.about-content .abot-content-content .grid-column {
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+.about-content .abot-content-content .grid-column i {
+  color: crimson;
+  font-size: 3rem;
+  padding: 10px;
+}
+.about-content .abot-content-content .grid-column h3 {
+  padding: 5px;
+}
+
+/*skills section*/
+.skills {
+  height: 100vh;
+}
+.skills .max-width {
+  padding-top: 10%;
+}
+.skill-title {
+  text-align: center;
+}
+.skill-title h1 {
+  font-size: 40px;
+  padding: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  grid-gap: 40px;
+  padding: 40px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+.grid-container > .grid-column {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.grid-container > .grid-column i {
+  font-size: 3rem;
+  color: crimson;
+}
+
+/* contact section styling */
+.contact {
+  height: 80vh;
+  background-color: black;
+}
+.contact .contact-title {
+  text-align: center;
+  padding-top: 6%;
+}
+.contact .contact-title h1 {
+  color: white;
+  font-size: 40px;
+}
+.contact .contact-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  grid-gap: 40px;
+  background-color: #222;
+  padding: 40px;
+  border-radius: 6px;
+}
+.contact .contact-content .left .text {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.contact .contact-content .left .icons {
+  padding-top: 20px;
+}
+.contact .contact-content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row .info {
+  margin-left: 30px;
+  color: white;
+}
+.contact .contact-content .row i {
+  font-size: 25px;
+  color: crimson;
+}
+.contact .contact-content .info .head {
+  font-weight: 500;
+}
+.contact .contact-content h4 {
+  color: white;
+}
+.contact .contact-content .right i {
+  font-size: 1.8rem;
+  color: crimson;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+.contact .contact-content .right i:hover {
+  color: #22a7f0;
+}
+
+/* footer section styling */
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,73 @@
+@media screen and (max-width: 400px) {
+  body {
+    margin: 0;
+  }
+  .nav-bar {
+    position: relative;
+  }
+  .nav-bar .left-column {
+    width: 100%;
+    text-align: center;
+  }
+  .middle-section {
+    padding-top: 1%;
+    text-align: center;
+  }
+  .middle-section .myself {
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .middle-section .image img {
+    width: 200px;
+  }
+  ul {
+    position: absolute;
+  }
+  .about {
+    height: 160vh;
+  }
+  .about-content {
+    background-color: #222;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .about-content .abot-content-content .grid-column {
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+  }
+  .about-content .abot-content-content {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .skills {
+    height: 250vh;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-gap: 40px;
+    padding: 40px;
+    background-color: lightgray;
+    border-radius: 6px;
+  }
+  .contact {
+    height: 80vh;
+  }
+  .contact .contact-content {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact .contact-content .right {
+    text-align: center;
+  }
+}
